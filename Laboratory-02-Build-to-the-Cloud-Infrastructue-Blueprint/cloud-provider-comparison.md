@@ -1,6 +1,6 @@
 ## Core Infrastructure Services
 
-| **Infrastructure ComponentAWSMicrosoft AzureGoogle Cloud Platform** |                     |                           |                                 |
+| **Infrastructure Component** |     **AWS**               |        **Microsoft Azure**                   |              **Google Cloud Platform**                  |
 | ------------------------------------------------------------------- | ------------------- | ------------------------- | ------------------------------- |
 | *Compute*                                                           | Amazon EC2          | Azure Virtual Machines    | Google Compute Engine           |
 | *Storage*                                                           | Amazon S3 + EBS     | Azure Blob Storage + Disk | Cloud Storage + Persistent Disk |
