@@ -1,118 +1,153 @@
-## Amazon Web Services (AWS)
+# Microsoft Azure Research
 
-Amazon Web Services (AWS) is a cloud computing platform developed by Amazon. It provides organizations with computing, storage, networking, databases, security, and other cloud services through the internet. AWS allows organizations to use cloud resources without having to maintain all physical hardware themselves.
+## Brief Overview
 
----
+Microsoft Azure is Microsoft's public cloud computing platform. Azure provides services for computing, storage, networking, databases, security, artificial intelligence, analytics, application development, and hybrid cloud environments.
 
-## 1. Brief Overview
+Azure is especially useful for organizations that already use Microsoft technologies such as Windows Server, Microsoft 365, and Active Directory.
 
-AWS provides different cloud services that can be used to build, deploy, and manage applications and IT infrastructure. Organizations can select the services they need and scale their resources depending on their workload.
+## Global Infrastructure
 
----
+Azure operates a large global cloud infrastructure consisting of geographic regions and datacenters.
 
-## 2. Global Infrastructure
+Azure regions allow organizations to deploy applications in different geographic locations.
 
-AWS organizes its cloud infrastructure into geographic Regions and Availability Zones. A Region is a geographic area where AWS provides cloud resources, while Availability Zones are separate locations within a Region.
+Organizations can select Azure regions according to requirements such as:
 
-This infrastructure allows organizations to deploy applications in different locations, improve availability, and reduce network latency for users.
+- Performance
+- Latency
+- Data residency
+- Compliance
+- Availability
+- Disaster recovery
 
-For example, an organization can distribute its applications across multiple Availability Zones to help maintain service availability if one location experiences a problem.
+Azure's global infrastructure supports both regional and global applications.
 
----
+## Cloud Management Console
 
-## 3. Cloud Management Console
+The Azure Portal is a web-based management interface for Microsoft Azure.
 
-The AWS Management Console is a web-based interface used to manage AWS resources.
+Administrators can use the Azure Portal to:
 
-Administrators can use the console to create and configure cloud services, monitor resources, manage security permissions, and control their AWS environment.
+- Create virtual machines.
+- Manage storage.
+- Configure networks.
+- Manage databases.
+- Configure identity.
+- Monitor applications.
+- Manage security.
+- Access Azure services.
 
-### Evidence 1 – AWS Management Console
+Azure also provides Azure Cloud Shell for command-line management.
 
-![AWS Management Console](screenshots/aws-console.png)
+## Four Core Services
 
----
+### 1. Azure Virtual Machines
 
-## 4. Four Core Services
+Azure Virtual Machines provides virtual machines running Windows or Linux.
 
-### 1. Amazon EC2
+Virtual machines can be used for:
 
-Amazon Elastic Compute Cloud (EC2) provides virtual servers that can be used to run applications and other workloads.
+- Web servers
+- Application servers
+- Enterprise applications
+- Development environments
+- Windows Server workloads
 
-### 2. Amazon S3
+### 2. Azure Blob Storage
 
-Amazon Simple Storage Service (S3) is an object storage service used to store files, backups, application data, images, videos, and other information.
+Azure Blob Storage provides object storage for large amounts of unstructured data.
 
-### 3. Amazon VPC
+It can store:
 
-Amazon Virtual Private Cloud (VPC) provides a logically isolated virtual network for AWS resources. It allows administrators to manage IP addresses, subnets, routing, and network connectivity.
+- Documents
+- Images
+- Videos
+- Backups
+- Logs
+- Application data
 
-### 4. AWS IAM
+### 3. Azure Virtual Network
 
-AWS Identity and Access Management (IAM) controls access to AWS resources. It allows administrators to manage users, roles, and permissions.
+Azure Virtual Network provides networking for Azure resources.
 
-### AWS Core Services Summary
+It supports:
 
-| AWS Service | Purpose |
-|---|---|
-| Amazon EC2 | Provides virtual servers |
-| Amazon S3 | Stores files and objects |
-| Amazon VPC | Provides virtual networking |
-| AWS IAM | Manages users and permissions |
+- Virtual networks
+- Subnets
+- Routing
+- Network security
+- Private connectivity
+- Hybrid connectivity
 
----
+### 4. Microsoft Entra ID
 
-## 5. Three Advantages
+Microsoft Entra ID provides identity and access management.
 
-### 1. Wide Range of Services
+It can be used to manage:
 
-AWS provides many services for computing, storage, networking, databases, security, analytics, and application development.
+- Users
+- Groups
+- Applications
+- Authentication
+- Authorization
+- Access policies
 
-### 2. Scalability
+Entra ID is particularly useful for organizations already using Microsoft's identity ecosystem.
 
-AWS allows organizations to increase or decrease their cloud resources based on workload and demand.
+## Three Advantages
+
+### 1. Microsoft Integration
+
+Azure integrates strongly with Microsoft products and technologies.
+
+This makes it a good choice for organizations using:
+
+- Windows Server
+- Microsoft 365
+- Active Directory
+- Microsoft SQL Server
+- Other Microsoft enterprise technologies
+
+### 2. Enterprise Capabilities
+
+Azure provides many services designed for enterprise organizations, including:
+
+- Security
+- Identity management
+- Databases
+- Hybrid connectivity
+- Monitoring
+- Compliance
 
 ### 3. Global Infrastructure
 
-AWS provides Regions and Availability Zones in different parts of the world. This allows organizations to deploy applications closer to their users and design highly available systems.
+Azure has a large global infrastructure that allows organizations to deploy applications across multiple geographic locations.
 
----
+This supports requirements involving:
 
-## 6. Typical Enterprise Use Cases
+- Availability
+- Performance
+- Disaster recovery
+- Data residency
 
-AWS can be used by businesses for different types of workloads.
+## Typical Enterprise Use Cases
 
-E-commerce companies can use AWS to host websites and applications that need to handle changing levels of traffic. Media companies can use cloud storage services for large amounts of digital content.
+Azure can be used for:
 
-Enterprises can also use AWS for application migration, backup, disaster recovery, databases, and other infrastructure requirements.
+- Windows Server migration
+- Microsoft 365 integration
+- Hybrid cloud
+- Enterprise applications
+- Database hosting
+- Artificial intelligence
+- Business analytics
+- Disaster recovery
+- Identity management
+- Application modernization
 
----
+## Screenshot Evidence
 
-## 7. AWS Service and Use Case Summary
+![Azure Homepage or Portal](screenshots/azure-homepage.png)
 
-| Service | Common Enterprise Use |
-|---|---|
-| Amazon EC2 | Application and website hosting |
-| Amazon S3 | File storage and backups |
-| Amazon VPC | Secure cloud networking |
-| AWS IAM | Access and permission management |
-
----
-
-## Screenshot
-
-![AWS Homepage](screenshots/aws-homepage.png)
-
----
-
-## AWS Investigation Summary
-
-| Category | AWS Result |
-|---|---|
-| Cloud Provider | Amazon Web Services |
-| Compute | Amazon EC2 |
-| Storage | Amazon S3 |
-| Networking | Amazon VPC |
-| Identity and Access | AWS IAM |
-| Management Tool | AWS Management Console |
-| Main Strength | Wide range of cloud services |
-| Scalability | High |
+*Screenshot taken from the official Azure website or Azure Portal.*
