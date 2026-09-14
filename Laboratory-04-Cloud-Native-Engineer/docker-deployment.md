@@ -1,4 +1,3 @@
-````markdown
 # Docker Deployment
 
 ## Checkpoint 3 - Docker Verification
