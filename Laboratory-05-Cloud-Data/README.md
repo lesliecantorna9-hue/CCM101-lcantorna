@@ -2,11 +2,11 @@
 
 ## Mission Overview
 
-This laboratory activity focuses on cloud storage technologies and the role of Object Storage in modern cloud applications. The activity begins by examining the differences between **Block Storage, File Storage, and Object Storage** and understanding how each storage type is used for different workloads.
+This laboratory activity introduced the concepts and practical use of cloud storage. It focused on understanding how Block Storage, File Storage, and Object Storage handle data and why each type is useful for specific computing needs.
 
-For the practical portion of the mission, I deployed **MinIO**, an S3-compatible object storage server, using Docker in the KillerCoda Ubuntu Playground. I configured the MinIO server using environment variables, mapped the API and Web Console ports, accessed the MinIO Web Console, created a bucket named `client-photos`, and uploaded a sample file into the bucket.
+During the hands-on portion, I worked with Docker and MinIO to build a simple object storage environment in the KillerCoda Playground. The MinIO service was started inside a Docker container, configured with administrator credentials, and made accessible through the assigned ports. After opening the MinIO Console, I created the `client-photos` bucket and placed a sample file inside it.
 
-The activity demonstrates how object storage can provide a scalable and accessible solution for storing large amounts of unstructured data such as images, videos, documents, and backups.
+The activity provided a practical example of how cloud storage can separate application data from the application server while providing an organized way to store and manage files.
 
 ---
 
@@ -14,16 +14,16 @@ The activity demonstrates how object storage can provide a scalable and accessib
 
 The objectives of this laboratory activity were to:
 
-- Differentiate between Block, File, and Object Storage.
-- Understand the primary use cases of different cloud storage types.
-- Deploy an S3-compatible Object Storage server using Docker.
-- Configure MinIO using environment variables.
-- Map and access specific container ports.
-- Access the MinIO Web Console through port `9001`.
-- Create a storage bucket named `client-photos`.
-- Upload and verify a sample object inside the bucket.
-- Document cloud storage operations using Markdown.
-- Maintain and expand a professional GitHub Cloud Computing portfolio.
+- Explain the purpose of Block, File, and Object Storage.
+- Compare the characteristics of different storage models.
+- Set up MinIO as an S3-compatible storage service.
+- Use Docker to run a cloud storage application.
+- Configure MinIO with administrator environment variables.
+- Connect to a containerized service using port forwarding.
+- Create and manage a storage bucket.
+- Store a sample file as an object.
+- Record the deployment process using Markdown documentation.
+- Add the completed laboratory work to the GitHub portfolio.
 
 ---
 
@@ -31,16 +31,16 @@ The objectives of this laboratory activity were to:
 
 | Tool | Purpose |
 |---|---|
-| **KillerCoda** | Provided the browser-based Ubuntu and Docker environment for the laboratory. |
-| **Ubuntu Linux** | Provided the command-line environment for deploying and managing MinIO. |
-| **Docker** | Used to deploy and run MinIO as a containerized service. |
-| **MinIO** | Provided the S3-compatible object storage server. |
-| **Web Browser** | Used to access and manage the MinIO Web Console. |
-| **GitHub** | Used to store, organize, and document the laboratory portfolio. |
-| **Markdown** | Used to create the required technical documentation files. |
+| **KillerCoda Playground** | Used as the temporary cloud-based environment for performing the laboratory tasks. |
+| **Ubuntu** | Used for executing Linux and Docker commands. |
+| **Docker** | Used to create and run the MinIO container. |
+| **MinIO** | Used as the object storage platform for the activity. |
+| **Web Browser** | Used to open the MinIO management interface. |
+| **GitHub Repository** | Used to organize and submit the laboratory documentation and evidence. |
+| **Markdown** | Used for writing the project documentation. |
 
 ---
 
 ## Skills Learned
 
-Through this laboratory activity, I developed a better understanding of the three major cloud storage models: Block Storage, File Storage, and Object Storage, including their differences, characteristics, and common use cases. I also gained practical experience deploying MinIO as a containerized object storage service using Docker and learned how environment variables can be used to configure administrator credentials. In addition, I learned how port mapping allows a service running inside a container to be accessed through a web browser. I also gained experience using the MinIO Web Console to create a bucket named `client-photos` and upload an object. This activity improved my confidence in using Linux commands such as `docker run` and `docker ps` and helped me understand how containerized cloud services can be deployed and managed. Finally, I strengthened my technical documentation skills by organizing Markdown files, screenshots, and deployment information in a structured GitHub Cloud Computing portfolio.
+This laboratory activity helped me understand how different cloud storage technologies are used depending on the requirements of an application. I learned that Block Storage works like storage attached to a computing system, File Storage organizes information through files and directories, while Object Storage is designed to manage individual objects with associated metadata. I also learned how to launch a storage service through Docker without having to install MinIO directly on the operating system. Working with the Docker command helped me understand how container ports and environment variables affect a running service. Using the MinIO Console also gave me practical experience with creating a bucket and managing stored objects. In addition, I became more familiar with checking Docker containers through the Linux terminal and documenting technical procedures. Overall, the activity improved my understanding of how cloud storage can be used in applications that handle many files and helped me become more comfortable working with containerized services.
