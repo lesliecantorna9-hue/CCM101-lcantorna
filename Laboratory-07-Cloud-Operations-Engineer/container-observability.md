@@ -12,5 +12,6 @@ Application logs help cloud engineers understand what happened inside an applica
 
 ## Container Metrics
 
-- **Memory Usage:** 2.742MiB
+- **Memory Usage:** 2.699MiB
 - **CPU Percentage:** 0.00%
+
