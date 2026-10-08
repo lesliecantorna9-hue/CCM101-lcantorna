@@ -1,12 +1,11 @@
 # System Baseline Report
-
 ## Host Memory
 
-- Total RAM Available: [ENTER YOUR VALUE HERE]
+- Total RAM Available: 1.9 GiB
 
 ## Root Disk Storage
 
-- Total Storage Capacity of `/`: [ENTER YOUR VALUE HERE]
+- Total Storage Capacity of `/`: 19 GB
 
 ## Disk Space Importance
 
